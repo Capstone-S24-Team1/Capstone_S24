@@ -3,7 +3,7 @@ import axios from 'axios';
 export const getCase = async (caseName) => {
     return axios({
         method: 'get',
-        url: `http://localhost:4000/case?email=${caseName}`,
+        url: `http://localhost:4000/case?caseName=${caseName}`,
         headers: {
             'Content-Type': 'application/json'
         }
