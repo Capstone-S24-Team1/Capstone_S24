@@ -18,8 +18,8 @@ router.get("/", (req, res) => {
 
 // Put
 router.put("/", (req, res) => {
-    const {caseName, caseSummary, caseLocation, caseReference, caseLink} = req.body;
-    createCase(caseName, caseSummary, caseLocation, caseReference, caseLink).then((result) => {
+    const {caseName, caseSummary, caseCategory, caseLocation, caseReference, caseLink} = req.body;
+    createCase(caseName, caseSummary, caseCategory, caseLocation, caseReference, caseLink).then((result) => {
         res.send(result.rows[0]);
     }).catch((err) => {
         console.log(err);
@@ -30,8 +30,8 @@ router.put("/", (req, res) => {
 
 // POST
 router.post("/", (req, res) => {
-    const {caseName, caseSummary, caseLocation, caseReference, caseLink} = req.body;
-    updateCase(caseName, caseSummary, caseLocation, caseReference, caseLink).then((result) => {
+    const {caseName, caseSummary, caseCategory, caseLocation, caseReference, caseLink} = req.body;
+    updateCase(caseName, caseSummary, caseCategory, caseLocation, caseReference, caseLink).then((result) => {
         res.send(result.rows);
     }).catch((err) => {
         console.log(err);

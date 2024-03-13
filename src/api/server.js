@@ -5,7 +5,8 @@ const logger = require('morgan')
 const cors = require('cors')
 require('dotenv').config()
 
-const tagsRouter = require('./routes/case')
+const caseRouter = require('./routes/case')
+const searchRouter = require('./routes/search')
 
 const app = express()
 
@@ -22,6 +23,7 @@ app.get("/", (req, res, next) => {
     res.send("Hello World")
 })
 
-app.use('/case', tagsRouter)
+app.use('/case', caseRouter)
+app.use('/search', searchRouter)
 
 module.exports = app
