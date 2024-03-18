@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "./app.css";
+import "./menubar.css";
 
 export const MenuBar = ({ property1, className }) => {
   return (
@@ -20,3 +20,5 @@ export const MenuBar = ({ property1, className }) => {
 MenuBar.propTypes = {
   property1: PropTypes.oneOf(["default"]),
 };
+
+export default MenuBar;
