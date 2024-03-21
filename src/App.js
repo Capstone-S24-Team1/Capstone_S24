@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
-import Menubar from './components/menubar'
+import HomePageWith from './components/homepage_withaccess'
 
 const App = () => {
 
@@ -9,8 +9,8 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route
-                    exact path={"/menubar"}
-                    element={<Menubar/>}
+                    exact path={"/homepage"}
+                    element={<HomePageWith/>}
                 />
             </Routes>
         </BrowserRouter>

@@ -1,0 +1,131 @@
+.home-page-with {
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page-with .div-2 {
+    background-color: #1c1c1c;
+    height: 1095px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .home-page-with .overlap {
+    background-image: url(../assets/image-1.png);
+    background-size: 100% 100%;
+    height: 1090px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .home-page-with .oil-gas-iot-insights {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 565px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 359px;
+    white-space: nowrap;
+  }
+  
+  .home-page-with .p {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 406px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 421px;
+    width: 667px;
+  }
+  
+  .home-page-with .menu-bar-instance {
+    left: 83px !important;
+    position: absolute !important;
+    top: 48px !important;
+  }
+  
+  .home-page-with .overlap-wrapper {
+    box-shadow: 0px 10px 10px #00000080;
+    height: 48px;
+    left: 608px;
+    position: absolute;
+    top: 538px;
+    width: 224px;
+  }
+  
+  .home-page-with .overlap-2 {
+    height: 48px;
+    position: relative;
+    width: 226px;
+  }
+  
+  .home-page-with .overlap-group-wrapper {
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 226px;
+  }
+  
+  .home-page-with .div-wrapper {
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 48px;
+    position: relative;
+    width: 224px;
+  }
+  
+  .home-page-with .text-wrapper-4 {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    white-space: nowrap;
+    width: 161px;
+  }
+  
+  .home-page-with .arrow-wrapper {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 40px;
+    left: 179px;
+    position: absolute;
+    top: 4px;
+    width: 40px;
+  }
+  
+  .home-page-with .arrow {
+    height: 15px;
+    left: 9px;
+    position: absolute;
+    top: 13px;
+    width: 23px;
+  }
+  
+  .home-page-with .image {
+    height: 1748px;
+    left: 7493px;
+    object-fit: cover;
+    position: absolute;
+    top: 6458px;
+    width: 3122px;
+  }
+  
